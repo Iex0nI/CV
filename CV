@@ -7,19 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>    
-        <img src="drill.jpg" height="200"/>
-            <h1>Mateusz Szuryga<h1>
-        <span>Frontend Developer</span>
-    </header>
-    <main>
-        <div id="Omnie">
+<header>    
+            <img src="drill.jpg" height="200"/>
+                <h1>Mateusz Szuryga<h1>
+            <span>Frontend Developer</span>
+</header>
+        <h3>Główne informacje na mój temat</h3>
+    
+<main>
+    <div id="O mnie">
         Mam na Imie <b>Mateusz</b>! <br>
             Uczęszczam do szkoły ponadpodstawowej im. Bartosza Głowackiego w Krasnymstawie<br>
         Wcześniej uczęszczałem do szkoły podstawowej im. Jana Pawła II w Krasnymstawie
-
+        
     </div>
-    <h1>Doświadczenie zawodowe</h1>
-            </main>
+    <hr>
+    <div id="Doświadczenie zawodwe">
+            <h1>Doświadczenie zawodowe</h1>
+                <ul>
+                    <li>Szkoła średnia profil programista</li>
+         
+                </ul>
+    </div> 
+    <hr>
+    <div id="Wykrztałcenie"></div>
+            <h1>Wykrztałcenie</h1>
+                <ul>
+                    <li>Szkoła ponadpodstawowa im. Bartosza Głowackiego w Krasnymstawie profil programista</li>
+                </ul>
+    </div>
+    <hr>
+    <div id="Zainteresowania"> 
+         <h1>Zainteresowania</h1>
+                <ul>
+                    <li>Programowanie</li>
+                    <li>Obróbka zdjęć</li>
+                </ul>
+    </div> 
+</main>
 </body>
 </html>
